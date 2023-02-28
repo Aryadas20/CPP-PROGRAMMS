@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "typeinfo": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "algorithm": "cpp",
+        "random": "cpp",
+        "fstream": "cpp",
+        "streambuf": "cpp",
+        "type_traits": "cpp",
+        "new": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}

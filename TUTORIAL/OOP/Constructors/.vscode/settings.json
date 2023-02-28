@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Aryadas",
+            "group": "Aryan",
+            "database": "SQL",
+            "username": "Aryabardhandas",
+            "password": "Arya2002*"
+        }
+    ],
+    "C_Cpp.errorSquiggles": "Enabled",
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
+}
