@@ -1,0 +1,26 @@
+we can use const    ructor in derievd classess in c++
+if base class constructor does not have any arguements, there is no need of any constructor in derieved.
+But if there are one or more arguements in the base class constructor,derievd class need to pass arguements
+
+In multiple inheritence, base classes are constructed in the order  in which they appear in the class declaration 
+
+In multilevel  inheritence, the constructors are executed in the order of inheritance 
+
+
+SPECIAL SYNTAX
+
+C++ supports an special syntax for passing arguements to multiple base classes 
+The constructor of the derived class recieves all the arguements at once and 
+then will pass the calls to the respective base classes
+
+The body is called after all the constructors are finished executing.
+derieved-constructor(arg1,arg2,arg3,.....): base1-constructor(arg1,arg2),Base2-constructor(arg3,arg4){
+    code block
+}base1-constructor(arg1,arg2);
+
+
+FOR VIRTUAL BASE class 
+
+1.The constructor for vurtual base class are invoked before an non virtual class 
+2.if there are  multiple virtual base classes, they are   invoked in the order declared 
+3.Any non virtual base class are then constructed before the derievd class constructor is executed.
